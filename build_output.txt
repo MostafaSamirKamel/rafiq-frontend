@@ -1,0 +1,37 @@
+
+> frontend@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 8.7s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/17) ...
+  Generating static pages using 11 workers (4/17) 
+  Generating static pages using 11 workers (8/17) 
+  Generating static pages using 11 workers (12/17) 
+Γ£ô Generating static pages using 11 workers (17/17) in 897.4ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /communication
+Γö£ Γùï /dashboard
+Γö£ Γùï /interaction
+Γö£ Γùï /interaction/emotions
+Γö£ Γùï /interaction/signals
+Γö£ Γùï /login
+Γö£ Γùï /recognition
+Γö£ Γùï /recognition/objects
+Γö£ Γùï /recognition/people
+Γö£ Γùï /recognition/places
+Γö£ Γùï /recognition/settings
+Γö£ Γùï /register
+Γöö Γùï /register/specialist
+
+
+Γùï  (Static)  prerendered as static content
+

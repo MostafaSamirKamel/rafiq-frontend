@@ -64,8 +64,16 @@ export default function RegisterPage() {
       password: '',
       childName: '',
       childBirthDate: '',
+      gender: 'male',
       governorate: '',
+      school: '',
+      iqScore: '',
+      healthStatus: '',
+      treatmentCenter: '',
+      doctorName: '',
+      doctorPhone: '',
     }
+
   });
 
   const gender = watch('gender' as any) || 'male';
@@ -117,19 +125,27 @@ export default function RegisterPage() {
       const formData = new FormData();
       formData.append('name', data.childName);
       formData.append('birthdate', data.childBirthDate);
-      formData.append('gender', gender);
+      formData.append('gender', data.gender || gender);
       formData.append('governorate', data.governorate);
-      // ... other optional fields from the form could be added here if schemas were expanded
+      
+      if (data.school) formData.append('school', data.school);
+      if (data.iqScore) formData.append('iqScore', data.iqScore);
+      if (data.healthStatus) formData.append('healthStatus', data.healthStatus);
+      if (data.treatmentCenter) formData.append('treatmentCenter', data.treatmentCenter);
+      if (data.doctorPhone) formData.append('specialistPhone', data.doctorPhone);
+      
       if (childPhoto) formData.append('photo', childPhoto);
 
       try {
-        await childAPI.create(formData, authResult.user.token);
+        const childResponse = await childAPI.create(formData, authResult.user.token);
+        console.log('Child created successfully:', childResponse);
       } catch (childErr) {
         console.error('Child creation failed but auth succeeded:', childErr);
-        // We still redirect because account is created
+        toast.warning('تم إنشاء الحساب ولكن حدث خطأ أثناء إضافة بيانات الطفل. يمكنك إضافتها لاحقاً من الإعدادات.');
       }
 
       toast.success('تم إنشاء حسابك وحساب طفلك بنجاح!');
+
       router.push('/dashboard');
     } catch (err: unknown) {
       toast.error('حدث خطأ غير متوقع أثناء التسجيل');

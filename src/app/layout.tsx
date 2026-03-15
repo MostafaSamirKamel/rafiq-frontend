@@ -8,7 +8,7 @@ import { authAPI } from "@/services/apiClient";
 import { AuthInit } from "@/lib/store/AuthInit";
 
 export const metadata: Metadata = {
-  title: "رافيق - منصة علاجية ذكية للأطفال",
+  title: "رفيق - منصة علاجية ذكية للأطفال",
   description: "منصة علاجية تعتمد على الذكاء الاصطناعي لمساعدة الأطفال على تطوير المهارات الاجتماعية والتواصل",
 };
 

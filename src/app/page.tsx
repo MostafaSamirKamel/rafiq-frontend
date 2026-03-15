@@ -35,7 +35,7 @@ import SparklesIcon from '@mui/icons-material/AutoAwesome';
 
 const introSlides = [
   {
-    title: 'ما هو رافيق؟',
+    title: 'ما هو رفيق؟',
     description: 'منصة علاجية ذكية تعتمد على الذكاء الاصطناعي لمساعدة الأطفال على تطوير المهارات الاجتماعية والتواصل بطريقة ممتعة وتفاعلية.',
     icon: <ExtensionIcon sx={{ fontSize: 36 }} />,
   },
@@ -150,7 +150,7 @@ export default function LandingPage() {
               </h1>
 
               <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed mb-12 max-w-xl text-center lg:text-right font-medium opacity-90">
-                رافيق يدمج الذكاء الاصطناعي مع أحدث الأساليب العلاجية 
+                رفيق يدمج الذكاء الاصطناعي مع أحدث الأساليب العلاجية 
                 ليمنح طفلك بيئة تفاعلية آمنة تنمي مهاراته الاجتماعية كل يوم.
               </p>
 
@@ -312,7 +312,7 @@ export default function LandingPage() {
             <span
               className="inline-block px-10 py-2.5 rounded-2xl text-[10px] font-black mb-6 uppercase tracking-[0.4em] bg-white border border-neutral-100 shadow-sm text-primary-600"
             >
-              اكتشف رافيق
+              اكتشف رفيق
             </span>
             <h2 className="text-4xl sm:text-6xl font-black mb-6 tracking-tight text-neutral-900">
               برنامج علاجي <span className="text-transparent bg-clip-text bg-linear-to-r from-primary-600 to-accent-600">متكامل</span> للأطفال
@@ -379,7 +379,7 @@ export default function LandingPage() {
                 >
                   <SparklesIcon className="text-warning-500" />
                 </motion.div>
-                <div className="absolute -bottom-6 -left-6 px-6 py-3 rounded-2xl bg-white shadow-premium border border-neutral-100 font-black text-sm text-primary-600">
+                <div className="absolute -bottom-6 -left-6 px-6 py-3 rounded-2xl bg-white shadow-premium border border-neutral-100 font-black text-sm text-primary-600 z-20">
                   +٨٥٪ تحسن ملحوظ
                 </div>
                 
@@ -401,7 +401,7 @@ export default function LandingPage() {
         <div className="text-center mb-16 relative z-10 px-4">
           <span className="text-primary-400 font-black text-xs uppercase tracking-[0.4em] mb-4 inline-block">ابدأ الآن</span>
           <h2 className="text-3xl sm:text-5xl font-black mb-6 tracking-tight text-white">
-            انضم إلى عائلة <span className="text-transparent bg-clip-text bg-linear-to-r from-primary-400 to-accent-400">رافيق</span> وتفوق
+            انضم إلى عائلة <span className="text-transparent bg-clip-text bg-linear-to-r from-primary-400 to-accent-400">رفيق</span> وتفوق
           </h2>
           <p className="text-lg sm:text-xl text-neutral-400 font-medium max-w-xl mx-auto leading-relaxed">
             البداية بسيطة، اختر نوع الحساب الذي يناسبك وابدأ استكشاف الإمكانيات اللامحدودة لتطوير مهارات طفلك.
@@ -510,7 +510,7 @@ export default function LandingPage() {
               نظام علاجي <span className="text-transparent bg-clip-text bg-linear-to-r from-primary-600 to-accent-600">شامل</span> وذكي
             </h2>
             <p className="text-lg sm:text-xl text-neutral-500 font-medium max-w-2xl mx-auto leading-relaxed">
-              لقد بنينا رافيق ليكون مرجعاً تقنياً متكاملاً يغطي كافة جوانب التطور الاجتماعي للطفل عبر ٣ ركائز أساسية.
+              لقد بنينا رفيق ليكون مرجعاً تقنياً متكاملاً يغطي كافة جوانب التطور الاجتماعي للطفل عبر ٣ ركائز أساسية.
             </p>
           </motion.div>
         </div>
@@ -661,7 +661,7 @@ export default function LandingPage() {
             
             <div className="relative z-10 max-w-2xl mx-auto">
               <h2 className="text-4xl lg:text-7xl font-black text-white mb-8 leading-tight tracking-tight">جاهز لتبدأ <span className="text-transparent bg-clip-text bg-linear-to-r from-primary-400 to-accent-400">قصة نجاح</span> طفلك؟</h2>
-              <p className="text-lg lg:text-xl text-white/60 mb-12 font-medium">انضم إلى مجتمع رافيق اليوم وامنح طفلك الأدوات التي يحتاجها للتواصل مع العالم بثقة حقيقية.</p>
+              <p className="text-lg lg:text-xl text-white/60 mb-12 font-medium">انضم إلى مجتمع رفيق اليوم وامنح طفلك الأدوات التي يحتاجها للتواصل مع العالم بثقة حقيقية.</p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <Link 

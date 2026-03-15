@@ -113,9 +113,8 @@ export default function DashboardPage() {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="max-w-5xl mx-auto py-24 px-4"
+      className="max-w-5xl mx-auto px-4"
     >
-      <Navbar variant="dashboard" />
       {/* Hero / Profile Section */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

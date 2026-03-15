@@ -154,7 +154,7 @@ export default function RegisterPage() {
           <div className="text-center mb-12">
             <Link href="/" className="inline-block group">
               <div className="w-16 h-16 mx-auto rounded-2xl overflow-hidden mb-6 shadow-premium group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 border-2 border-white">
-                <Image src="/logo.jpeg" alt="رافيق" width={64} height={64} className="object-cover" />
+                <Image src="/logo.jpeg" alt="رفيق" width={64} height={64} className="object-cover" />
               </div>
             </Link>
             <h1 className="text-3xl font-black text-neutral-900 tracking-tighter">إنشاء حساب ولي أمر</h1>

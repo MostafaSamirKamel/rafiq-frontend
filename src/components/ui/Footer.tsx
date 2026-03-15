@@ -36,7 +36,7 @@ export default function Footer() {
         {/* Team Header */}
         <div className="text-center mb-16">
           <span className="text-primary-500 font-black text-xs uppercase tracking-[0.3em] mb-4 inline-block">وراء الكواليس</span>
-          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4">فريق عمل رافيق</h2>
+          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4">فريق عمل رفيق</h2>
           <p className="text-neutral-400 text-lg max-w-2xl mx-auto font-medium leading-relaxed">
             نحن مجموعة من المهندسين الشغوفين تكاتفنا معاً لتقديم حل تقني مبتكر يساعد الأطفال على التعبير والتعلم بسهولة
           </p>
@@ -55,7 +55,7 @@ export default function Footer() {
               >
                 {member.icon}
               </div>
-              <h3 className="font-black text-white tracking-tight text-sm sm:text-base leading-tight">{member.name}</h3>
+              <h3 className="font-bold text-white tracking-normal text-sm sm:text-base leading-tight">{member.name}</h3>
               <p className="text-neutral-500 text-xs font-bold mt-2 uppercase tracking-wider">{member.role}</p>
             </div>
           ))}
@@ -95,7 +95,7 @@ export default function Footer() {
           <div className="flex items-center gap-3 text-neutral-500 text-sm font-bold">
             <span>تم تطويره بكل</span>
             <FavoriteIcon sx={{ fontSize: 16 }} className="text-red-500 animate-pulse" />
-            <span>بواسطة فريق رافيق - ٢٠٢٤</span>
+            <span>بواسطة فريق رفيق - ٢٠٢٦</span>
           </div>
         </div>
       </div>

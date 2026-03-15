@@ -22,7 +22,6 @@ import {
 import { useSelector } from 'react-redux';
 import { RootState } from '@/lib/store';
 import { childAPI, progressAPI } from '@/services/apiClient';
-import Navbar from '@/components/ui/Navbar';
 import Image from 'next/image';
 import { 
   BarChart, 
@@ -145,8 +144,7 @@ export default function ProfilePage() {
 
   if (!activeChild) {
     return (
-      <div className="min-h-screen bg-neutral-50/50 flex flex-col items-center justify-center p-4">
-        <Navbar variant="dashboard" />
+      <div className="flex flex-col items-center justify-center p-4">
         <div className="text-center space-y-4 max-w-md">
            <div className="w-20 h-20 bg-neutral-100 rounded-full flex items-center justify-center mx-auto text-neutral-400">
               <User size={40} />
@@ -159,9 +157,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-50/50 py-24 px-4 sm:px-8 lg:px-12" dir="rtl">
-      <Navbar variant="dashboard" />
-      
+    <div className="space-y-12 pb-24" dir="rtl">
       <div className="max-w-7xl mx-auto space-y-12 pb-24">
         {/* Profile Header */}
         <motion.div 

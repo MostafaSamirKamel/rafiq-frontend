@@ -70,11 +70,11 @@ export default function LoginPage() {
           <div className="text-center mb-10">
             <Link href="/" className="inline-block group">
               <div className="w-20 h-20 mx-auto rounded-3xl overflow-hidden mb-6 shadow-premium group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 border-2 border-white">
-                <Image src="/logo.jpeg" alt="رافيق" width={80} height={80} className="object-cover" />
+                <Image src="/logo.jpeg" alt="رفيق" width={80} height={80} className="object-cover" />
               </div>
             </Link>
             <h1 className="text-3xl font-black text-neutral-900 tracking-tighter" style={{ color: 'var(--neutral-900)' }}>
-              أهلاً بك في رافيق
+              أهلاً بك في رفيق
             </h1>
             <p className="text-lg text-neutral-500 mt-2 font-medium">
               سجل دخولك لمتابعة رحلة التعلم

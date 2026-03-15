@@ -60,7 +60,7 @@ export default function CommunicationPage() {
     {
       id: '1',
       role: 'ai',
-      text: 'مرحباً! أنا رافيق. هيا نتكلم مع بعض! إزيك؟ عامل إيه؟',
+      text: 'مرحباً! أنا رفيق. هيا نتكلم مع بعض! إزيك؟ عامل إيه؟',
       timestamp: new Date(),
     },
   ]);
@@ -194,7 +194,7 @@ export default function CommunicationPage() {
                 </div>
               </h1>
               <p className="text-lg sm:text-xl text-neutral-500 font-medium ml-auto max-w-2xl leading-relaxed">
-                تحدث مع صديقك الذكي رافيق لتطوير مهارات الحوار والتعبير عن نفسك بثقة. رافيق هنا ليسمعك ويشاركك الحديث دائماً.
+                تحدث مع صديقك الذكي رفيق لتطوير مهارات الحوار والتعبير عن نفسك بثقة. رفيق هنا ليسمعك ويشاركك الحديث دائماً.
               </p>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function CommunicationPage() {
               <span className="absolute -bottom-1 -left-1 w-4 h-4 rounded-full bg-success-500 border-2 border-primary-600 shadow-[0_0_8px_rgba(34,197,94,0.6)]" />
             </div>
             <div className="text-right">
-              <h3 className="font-black text-white text-lg tracking-tight">رافيق الذكي</h3>
+              <h3 className="font-black text-white text-lg tracking-tight">رفيق الذكي</h3>
               <span className="text-white/70 text-xs font-black uppercase tracking-widest">مساعدك التعليمي</span>
             </div>
           </div>
@@ -298,7 +298,7 @@ export default function CommunicationPage() {
                   <span className="w-2 h-2 rounded-full bg-primary-400 animate-bounce" style={{ animationDelay: '150ms' }} />
                   <span className="w-2 h-2 rounded-full bg-primary-400 animate-bounce" style={{ animationDelay: '300ms' }} />
                 </div>
-                <span className="text-xs font-black text-neutral-400 uppercase tracking-widest">رافيق يفكر...</span>
+                <span className="text-xs font-black text-neutral-400 uppercase tracking-widest">رفيق يفكر...</span>
               </div>
             </motion.div>
           )}

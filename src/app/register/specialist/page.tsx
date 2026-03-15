@@ -71,7 +71,7 @@ export default function SpecialistRegisterPage() {
           <div className="text-center mb-10">
             <Link href="/" className="inline-block group mb-6">
               <div className="w-20 h-20 mx-auto rounded-3xl overflow-hidden shadow-premium group-hover:scale-110 transition-transform duration-500 border-2 border-white">
-                <Image src="/logo.jpeg" alt="رافيق" width={80} height={80} className="object-cover" />
+                <Image src="/logo.jpeg" alt="رفيق" width={80} height={80} className="object-cover" />
               </div>
             </Link>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-50/50 text-cyan-600 font-black text-xs border border-cyan-100/50 mb-6 backdrop-blur-sm shadow-sm">
